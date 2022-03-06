@@ -10,3 +10,6 @@ IPs: Have this ready on hand, enter it into the program seperated by spaces: Exa
 ports: have this ready on hand also, enter it into the program seperated by spaces: 5555 6666 3333 2222-2666
 
 any errors will halt the program and show what the server responded with and what the script stoped at. (ip and port)
+
+
+
