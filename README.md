@@ -3,6 +3,8 @@
 Have the following ready to copy and paste
 Have your endpoint example: https://ptero.panel.com
 
+Node number: the node number is found by either asking the api or just counting down on your list starting at 1
+
 API Key: should be under $Endpoint/admin/api on the panel make one if you dont have one, it just needs the allocations permission
 
 IPs: Have this ready on hand, enter it into the program seperated by spaces: Example: 10.0.0.1 10.0.0.2
