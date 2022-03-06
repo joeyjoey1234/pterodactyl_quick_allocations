@@ -6,7 +6,7 @@ if endpoint[-1] == '/':
 else:
     endpoint = endpoint + '/'
 
-
+node_number = input('what node is this for??? should be a number')
 apikey = input("enter api key:   ")
 apikey = str(apikey)
 
@@ -22,7 +22,7 @@ ports = input(' ')
 ports = str(ports)
 ports = ports.split(' ')
 
-url = '{}api/application/nodes/2/allocations'.format(endpoint)
+url = '{}api/application/nodes/{}/allocations'.format(endpoint,node_number)
 
 
 headers = {
